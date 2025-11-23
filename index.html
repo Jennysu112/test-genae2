@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Genae — 溫柔、真實、自由的療癒品牌</title>
+<meta name="description" content="Genae 是一個結合療癒、藝術與質感的品牌。我們提供米白水晶絨熊熊、精油香氛與正向語錄，希望能成為您生活中的溫柔陪伴，帶給您平靜與希望。" />
+<!-- SEO & 專業連結 -->
+<link rel="canonical" href="https://your-website-url.com/" />
+<meta property="og:title" content="Genae — 溫柔、真實、自由" />
+<meta property="og:description" content="以療癒 × 藝術 × 質感打造的五感品牌。遇見你的療癒夥伴，找回內心的平靜。" />
+<meta property="og:image" content="images/hero.webp" />
+
+<!-- 樣式表連結 -->
+<link rel="preload" href="styles.css" as="style" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<a class="skip-link" href="#main">跳到主要內容</a>
+
+<header class="nav" role="banner">
+  <div class="row">
+    <div class="brand">Genae</div>
+    <nav class="links" role="navigation" aria-label="主導覽">
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-list">選單</button>
+      <div id="nav-list" class="nav-list">
+        <a class="btn" href="#about">品牌理念</a>
+        <a class="btn" href="#features">精選系列</a>
+        <a class="btn" href="#products">療癒熊熊</a>
+        <a class="btn" href="#roadmap">未來計畫</a>
+        <a class="btn" href="#contact">聯絡我們</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main id="main" role="main">
+<!-- Hero 區塊 -->
+<section class="hero" aria-labelledby="hero-heading">
+  <div class="grid">
+    <div class="hero-content">
+      <div class="eyebrow">Gentle · Real · Free</div>
+      <!-- 修正 1: 在「柔軟。」加上 span class="keep-together" 確保這三個字永遠黏在一起，不會斷開 -->
+      <h1 id="hero-heading">以五感療癒，<br>讓世界多一點<span class="keep-together">柔軟。</span></h1>
+      <p class="sub">我們相信：美不是完美，而是被理解。Genae 將療癒 × 藝術 × 質感融合為日常的呼吸——在字裡行間、色彩與香氣、身體律動與空間留白之間，<span class="keep-together">陪你找回平靜與希望。</span></p>
+      <div class="cta">
+        <a class="btn-primary" href="#products">遇見療癒夥伴</a>
+        <a class="btn-ghost" href="#about">認識品牌故事</a>
+      </div>
+    </div>
+    <!-- 主視覺：單張靜態圖片 -->
+    <div class="hero-media" aria-hidden="true">
+      <div class="media-box">
+        <img src="images/hero.webp" alt="Genae 品牌形象 - 溫暖居家氛圍" loading="lazy" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 精選內容 -->
+<section id="features" class="features" aria-labelledby="features-heading">
+  <h2 id="features-heading" class="visually-hidden">精選內容</h2>
+  <div class="cards">
+    <article class="card feature-card">
+      <span class="tag">文字 · Healing Notes</span>
+      <h3>每天一點平靜</h3>
+      <div class="feature-text-block">
+        <!-- 修正 2: 移除 <br class="mobile-break">，讓文字自然流動，並確保「力量」不換行 -->
+        <p class="quote-text">「你不需要時刻堅強，柔軟也是一種<span class="keep-together">力量。」</span></p>
+        <p class="desc-text">每日一句正向語錄，在忙碌中為<span class="keep-together">心靈留白。</span></p>
+      </div>
+      <p><a href="#contact" class="text-link">訂閱電子報 →</a></p>
+    </article>
+    <article class="card feature-card">
+      <span class="tag">藝術 · 療癒夥伴</span>
+      <h3>米白水晶絨系列</h3>
+      <p>以頂級親膚材質打造的療癒熊熊，不僅是玩偶，更是能承接你所有情緒的<span class="keep-together">溫柔存在。</span></p>
+      <p><a href="#products" class="text-link">探索全系列 →</a></p>
+    </article>
+    <article class="card feature-card">
+      <span class="tag">五感 · 香氛</span>
+      <h3>氣味記憶</h3>
+      <p>Hope、Calm、Embrace 三款專屬精油，透過嗅覺喚醒內在的<span class="keep-together">安穩與平靜力量。</span></p>
+      <p><a href="#roadmap" class="text-link">了解未來新品 →</a></p>
+    </article>
+  </div>
+</section>
+
+<!-- 產品區塊 -->
+<section id="products" class="section" aria-labelledby="products-heading">
+  <div class="panel">
+    <div class="section-header">
+        <h2 id="products-heading" class="text-accent">🧸 Genae 療癒熊系列</h2>
+        <p class="section-desc">每一隻熊熊都擁有獨特的個性與陪伴意義。選用頂級米白色水晶絨，觸感如雲朵般細膩，<span class="keep-together">給你最真實的擁抱。</span></p>
+    </div>
+    
+    <div class="cards product-grid">
+      <!-- 產品 1 -->
+      <article class="card product" data-id="p1" data-name="Hope Bear" data-price="1580">
+        <div class="img-wrapper">
+            <img class="product-image" src="images/bear-hope.webp" alt="Hope Bear 米白水晶絨熊" loading="lazy" />
+        </div>
+        <div class="product-info">
+            <h4>Hope Bear · 希望熊</h4>
+            <p class="desc">眼神明亮充滿朝氣，就像清晨的第一道光，<span class="keep-together">帶給你前行的勇氣。</span></p>
+            <p class="price">NT$ 1,580</p>
+            <button class="btn-primary add-to-cart" type="button">加入購物車</button>
+        </div>
+      </article>
+
+      <!-- 產品 2 -->
+      <article class="card product" data-id="p2" data-name="Calm Bear" data-price="1580">
+        <div class="img-wrapper">
+            <img class="product-image" src="images/bear-calm.webp" alt="Calm Bear 米白水晶絨熊" loading="lazy" />
+        </div>
+        <div class="product-info">
+            <h4>Calm Bear · 靜心熊</h4>
+            <p class="desc">姿態放鬆安穩，像一顆安靜的石頭，<span class="keep-together">陪你在喧囂中找回內心的平靜。</span></p>
+            <p class="price">NT$ 1,580</p>
+            <button class="btn-primary add-to-cart" type="button">加入購物車</button>
+        </div>
+      </article>
+
+      <!-- 產品 3 -->
+      <article class="card product" data-id="p3" data-name="Embrace Bear" data-price="1280">
+        <div class="img-wrapper">
+            <img class="product-image" src="images/bear-embrace.webp" alt="Embrace Bear 米白水晶絨熊" loading="lazy" />
+        </div>
+        <div class="product-info">
+            <h4>Embrace Bear · 擁抱熊</h4>
+            <p class="desc">圓潤的身形與張開的雙手，Mini 尺寸方便隨身攜帶，<span class="keep-together">隨時給你一個溫暖擁抱。</span></p>
+            <p class="price">NT$ 1,280</p>
+            <button class="btn-primary add-to-cart" type="button">加入購物車</button>
+        </div>
+      </article>
+    </div>
+    
+    <p class="text-center see-more">
+      <a class="btn-ghost" href="#">查看尺寸與材質說明 →</a>
+    </p>
+  </div>
+</section>
+
+<!-- 購物車 -->
+<div id="cart" class="cart" aria-live="polite" aria-hidden="true">
+  <button id="cart-close" class="cart-close" aria-label="關閉購物車">×</button>
+  <h3>購物車</h3>
+  <ul id="cart-items"></ul>
+  <div class="cart-footer">
+    <div class="cart-total">總計：<span id="cart-total">NT$0</span></div>
+    <button id="checkout" class="btn-primary">前往結帳</button>
+  </div>
+</div>
+<button id="cart-toggle" class="cart-toggle" aria-controls="cart" aria-expanded="false" aria-label="開啟購物車">
+  🛒 <span id="cart-count">0</span>
+</button>
+
+<!-- 品牌理念 -->
+<section id="about" class="section bg-light">
+  <div class="panel no-shadow">
+    <p class="quote">「美不是完美，而是被理解。」</p>
+    <p class="by">— Genae 品牌理念</p>
+    <p class="about-text">在這個追求完美與效率的世界裡，我們希望為你保留一個可以喘息的空間。Genae 不只是品牌，更是你的生活陪伴者。我們以平等的姿態陪你同行：不是拯救，而是相伴；不是給予標準答案，<span class="keep-together">而是陪你一起感受生活中的微小美好。</span></p>
+  </div>
+</section>
+
+<!-- 未來計畫 -->
+<section id="roadmap" class="section">
+  <div class="panel">
+    <h2 class="section-title">未來旅程</h2>
+    <div class="road">
+      <div class="mile">
+        <h4>Q1 · 療癒內容</h4>
+        <p>啟動「Daily Healing」IG 連載與電子報，分享正向語錄與療癒歌單。</p>
+      </div>
+      <div class="mile">
+        <h4>Q2 · 香氛體驗</h4>
+        <p>推出 Hope · Calm · Embrace 專屬精油與擴香系列，打造五感療癒空間。</p>
+      </div>
+      <div class="mile">
+        <h4>Q3 · 實體展覽</h4>
+        <p>策辦「Genae 五感療癒展」：結合音樂、香氛與觸覺的沉浸式體驗。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 聯絡 -->
+<section id="contact" class="section">
+  <div class="panel">
+    <h2 class="section-title">聯絡與社群</h2>
+    <p class="contact-desc">合作 / 展覽 / 跨域計畫，歡迎寫信或私訊我們。</p>
+    <div class="social">
+      <a href="https://instagram.com/" target="_blank" rel="noopener" class="btn-ghost icon-link">Instagram</a>
+      <a href="https://youtube.com/" target="_blank" rel="noopener" class="btn-ghost icon-link">YouTube</a>
+      <a href="mailto:hello@genae.com" class="btn-ghost icon-link">Email</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer role="contentinfo">
+  <div class="foot">
+    <div>© <span id="y"></span> Genae — Gentle, Real, Free.</div>
+    <div class="social">
+      <a href="#top" class="back-to-top">回到頂部 ↑</a>
+    </div>
+  </div>
+</footer>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Genae",
+  "url": "https://your-website-url.com"
+}
+</script>
+<script src="main.js" defer></script>
+</body>
+</html>
